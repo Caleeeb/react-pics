@@ -6,17 +6,17 @@ function SearchBar({ onSubmit }) {
   const handleFormSubmit = (event) => {
     event.preventDefault();
 
-    onSubmit('cars');
+    onSubmit(term);
   };
 
-  const handleChange = () => {
-
+  const handleChange = (event) => {
+    setTerm(event.target.value); 
   };
 
   return (
     <div>
       <form onSubmit={handleFormSubmit}>
-        <input onChange={handleChange}/>
+        <input value={term} onChange={handleChange}/>
       </form>
     </div>
   );
