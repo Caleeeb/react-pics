@@ -25,6 +25,6 @@ THEN I am presented with ten pictures of what is requested
 ![](./public/react-pics-screenshot.png)
 
 ## API's Used
-<p><a href="https://unsplash.com/">Unsplash: An image source API></a></p>
+<p><a href="https://unsplash.com/">Unsplash: An image source API</a></p>
 
 
