@@ -1,9 +1,6 @@
 # weather_dashboard
 This is an application that shows images based on an user entered term. 
 
-## URL:
-
-
 ## Description
 An application that when a term is entered in the search bar, a list of ten images related to term appear. This was made using React.js and the Unsplash api. This is a purely function based app with little design and styling. The creator learned a great deal while making this application to further their knowledge with the REact framework. 
 
